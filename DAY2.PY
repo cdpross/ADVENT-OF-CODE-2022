@@ -2,25 +2,6 @@
 # paper - B, Y
 # scissors - C, Z
 
-
-# Rock beats scissors
-# Paper beats rock
-# Scissors beat paper
-
-# AX, AY, AZ / XA, YA, ZA
-# BX, BY, BZ / XB, YX, ZB
-# CX, CY, CZ / CX, CY, CZ
-
-
-# points based on shape:
-    # rock - 1
-    # paper - 2
-    # scissors - 3
-# outcome of round score:
-    # lost - 0
-    # draw - 3
-    # win - 6
-
 rps = open(r'C:\Users\Courtney\OneDrive\Desktop\programming\ADVENT OF CODE 2022\DAY2\rock_paper_scissors.txt')
 rps = rps.read().splitlines()
 # rps = ['A Y','B X','C Z']
